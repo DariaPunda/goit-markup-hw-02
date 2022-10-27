@@ -80,7 +80,7 @@ a{
     color:var(--accent-text-color);
 }
 
-.link-current{
+.site-nav .link-current{
     color: var(--accent-text-color);
 }
 
