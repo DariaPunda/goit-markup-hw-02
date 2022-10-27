@@ -106,6 +106,7 @@ a{
     color: var(--main-white-color);
     background-color: var(--accent-text-color);
     border: 0;
+    cursor: pointer;
 
 }
 
@@ -187,6 +188,13 @@ a{
 .address-contact{
     color: var(--additional-address-color);
 }
+.address-link:hover,
+.address-link:focus,
+.address-contact:hover,
+.address-contact:focus{
+    color: var(--accent-text-color);
+}
+
 
 /* Portfolio page styles */
 /* Buttons */
@@ -203,7 +211,7 @@ a{
     background-color: var(--accent-text-color);
     color: var(--main-white-color);
 }
-/* List */
+/* Main portfolio list */
 .main-list-title{
     font-size: 18px;
     line-height: 2;
@@ -215,3 +223,4 @@ a{
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
+
