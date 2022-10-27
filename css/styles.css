@@ -59,7 +59,7 @@ a{
 }
 
 /* Navigation */
-.site-nav a{
+.link{
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1428;
@@ -67,7 +67,7 @@ a{
     color: var(--primary-text-color);
 }
 
-.contact a {
+.contact-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1428;
