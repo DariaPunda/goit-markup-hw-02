@@ -49,7 +49,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.1923;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--logo-black-color);
@@ -63,7 +63,7 @@ body {
 .nav {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.1428;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
@@ -71,7 +71,7 @@ body {
 .contact {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.1428;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--secondary-text-color);
 }
@@ -94,7 +94,7 @@ body {
 .hero-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.3636;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -106,7 +106,7 @@ body {
         'Tahoma', sans-serif;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.875;
+    line-height: 1.87;
     letter-spacing: 0.06em;
     color: var(--main-white-color);
     background-color: var(--accent-text-color);
@@ -127,14 +127,14 @@ body {
 
 .features-title {
     font-size: 14px;
-    line-height: 1.1428;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .features-text {
     font-size: 14px;
-    line-height: 1.7142;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
@@ -144,7 +144,7 @@ body {
 .work-title,
 .team-title {
     font-size: 36px;
-    line-height: 1.1666;
+    line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -157,13 +157,13 @@ body {
 .member-title {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.1875;
+    line-height: 1.18;
     letter-spacing: 0.03em;
 }
 
 .member-position {
     font-size: 16px;
-    line-height: 1.1875;
+    line-height: 1.18;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
@@ -177,7 +177,7 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.1923;
+    line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--main-white-color);
@@ -186,7 +186,7 @@ body {
 .address-list {
     font-style: normal;
     font-size: 14px;
-    line-height: 1.7142;
+    line-height: 1.71;
     letter-spacing: 0.03em;
 }
 
@@ -213,7 +213,7 @@ body {
         'Tahoma', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.625;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     cursor: pointer;
@@ -235,7 +235,7 @@ body {
 
 .main-list-descr {
     font-size: 16px;
-    line-height: 1.875;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
