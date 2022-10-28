@@ -35,11 +35,11 @@ body {
 }
 
 
-ul {
+.list {
     list-style: none;
 }
 
-a {
+.link {
     text-decoration: none;
 }
 
@@ -60,7 +60,7 @@ a {
 }
 
 /* Navigation */
-.link {
+.nav {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1428;
@@ -68,7 +68,7 @@ a {
     color: var(--primary-text-color);
 }
 
-.contact-link {
+.contact {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1428;
@@ -81,7 +81,7 @@ a {
     color: var(--accent-text-color);
 }
 
-.site-nav .link-current {
+.current {
     color: var(--accent-text-color);
 }
 
@@ -191,7 +191,7 @@ a {
     letter-spacing: 0.03em;
 }
 
-.address-link {
+.address {
     color: var(--main-white-color);
 }
 
@@ -199,8 +199,8 @@ a {
     color: var(--additional-address-color);
 }
 
-.address-link:hover,
-.address-link:focus,
+.address:hover,
+.address:focus,
 .address-contact:hover,
 .address-contact:focus {
     color: var(--accent-text-color);
