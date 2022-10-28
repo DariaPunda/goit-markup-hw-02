@@ -198,7 +198,7 @@ a{
 
 /* Portfolio page styles */
 /* Buttons */
-.button{
+.filter-button{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.625;
@@ -206,8 +206,8 @@ a{
     letter-spacing: 0.03em;
     cursor: pointer;
 }
-.button:hover,
-.button:focus{
+.filter-button:hover,
+.filter-button:focus{
     background-color: var(--accent-text-color);
     color: var(--main-white-color);
 }
