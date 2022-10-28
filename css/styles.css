@@ -13,38 +13,39 @@ hero and footer background-color: #2F303A; */
 /* FONT FAMILIES  
 main font-family: Roboto, sans-serif;
 logo font-family: 'Raleway', sans-serif; */
-body{
+body {
     background-color: var(--main-white-color);
     font-family: 'Roboto', 'Helvetica Neue',
         'Tahoma', sans-serif;
     color: var(--primary-text-color);
 
 }
-:root{
-    --main-white-color:#ffffff;
-    --grey-bcg-color:#F5F4FA;
-    --accent-bcg-color:#2F303A;
 
-    --logo-black-color:#000000;
-    --primary-text-color:#212121;
-    --secondary-text-color:#757575;
-    --accent-text-color:#2196F3;
+:root {
+    --main-white-color: #ffffff;
+    --grey-bcg-color: #F5F4FA;
+    --accent-bcg-color: #2F303A;
+
+    --logo-black-color: #000000;
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-text-color: #2196F3;
     --additional-address-color: rgba(255, 255, 255, 0.6);
 
 }
 
 
-ul{
+ul {
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
 /* Header */
 
-.logo-header{
+.logo-header {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -54,12 +55,12 @@ a{
     color: var(--logo-black-color);
 }
 
-.logo-accent{
-    color:var(--accent-text-color);
+.logo-accent {
+    color: var(--accent-text-color);
 }
 
 /* Navigation */
-.link{
+.link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1428;
@@ -76,20 +77,21 @@ a{
 }
 
 .link:hover,
-.link:focus{
-    color:var(--accent-text-color);
+.link:focus {
+    color: var(--accent-text-color);
 }
 
-.site-nav .link-current{
+.site-nav .link-current {
     color: var(--accent-text-color);
 }
 
 /* Main - Hero section */
 
-.hero{
+.hero {
     background-color: var(--accent-bcg-color);
 }
-.hero-title{
+
+.hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.3636;
@@ -98,9 +100,10 @@ a{
     text-transform: uppercase;
     color: var(--main-white-color);
 }
-.hero-button{
+
+.hero-button {
     font-family: 'Roboto', 'Helvetica Neue',
-    'Tahoma', sans-serif;
+        'Tahoma', sans-serif;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.875;
@@ -114,7 +117,7 @@ a{
 
 /* Features */
 
-.hidden-header{
+.hidden-header {
     position: absolute;
     clip: rect(0 0 0 0);
     width: 1px;
@@ -122,14 +125,14 @@ a{
     margin: -1px;
 }
 
-.features-title{
+.features-title {
     font-size: 14px;
     line-height: 1.1428;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
-.features-text{
+.features-text {
     font-size: 14px;
     line-height: 1.7142;
     letter-spacing: 0.03em;
@@ -139,35 +142,38 @@ a{
 /* Section: Our work */
 
 .work-title,
-.team-title{
+.team-title {
     font-size: 36px;
-    line-height:1.1666;
+    line-height: 1.1666;
     text-align: center;
     letter-spacing: 0.03em;
 }
 
 /* Our team */
-.team{
+.team {
     background-color: var(--grey-bcg-color);
 }
 
-.member-title{
+.member-title {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.1875;
     letter-spacing: 0.03em;
 }
-.member-position{
+
+.member-position {
     font-size: 16px;
     line-height: 1.1875;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
+
 /* Footer */
-.footer{
+.footer {
     background-color: var(--accent-bcg-color);
 }
-.logo-footer{
+
+.logo-footer {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -176,6 +182,7 @@ a{
     text-decoration: none;
     color: var(--main-white-color);
 }
+
 .address-list {
     font-weight: 400;
     font-style: normal;
@@ -183,26 +190,28 @@ a{
     line-height: 1.7142;
     letter-spacing: 0.03em;
 }
- .address-link{
-    color: var(--main-white-color);
- }
 
-.address-contact{
+.address-link {
+    color: var(--main-white-color);
+}
+
+.address-contact {
     color: var(--additional-address-color);
 }
+
 .address-link:hover,
 .address-link:focus,
 .address-contact:hover,
-.address-contact:focus{
+.address-contact:focus {
     color: var(--accent-text-color);
 }
 
 
 /* Portfolio page styles */
 /* Buttons */
-.filter-button{
+.filter-button {
     font-family: 'Roboto', 'Helvetica Neue',
-    'Tahoma', sans-serif;
+        'Tahoma', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.625;
@@ -211,21 +220,23 @@ a{
     cursor: pointer;
     color: var(--primary-text-color)
 }
+
 .filter-button:hover,
-.filter-button:focus{
+.filter-button:focus {
     background-color: var(--accent-text-color);
     color: var(--main-white-color);
 }
+
 /* Main portfolio list */
-.main-list-title{
+.main-list-title {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
-.main-list-descr{
+
+.main-list-descr {
     font-size: 16px;
     line-height: 1.875;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
 }
-
