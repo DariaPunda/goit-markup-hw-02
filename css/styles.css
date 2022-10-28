@@ -174,7 +174,7 @@ a{
     text-decoration: none;
     color: var(--main-white-color);
 }
-.address-list a{
+.address-list {
     font-weight: 400;
     font-style: normal;
     font-size: 14px;
